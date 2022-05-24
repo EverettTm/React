@@ -7,6 +7,7 @@ function Main() {
     const [horas , setHoras] = useState('');
     const [views , setViews] = useState('');
     const [email , setEmail] = useState('');
+    const cliqueAqui = "Clique Aqui"
     const handleChange =(e)=>{
       setHoras(e.target.value);
     }
@@ -59,8 +60,9 @@ function Main() {
           {}
       <br></br>
       <input  type="submit" value="Submit"/>
-
       </form>
+      <a href="https://main.d2shxk5imahqcz.amplifyapp.com/password/">Clique aqui para ver sua senha</a>
+
     </header>
     </div>
   );
